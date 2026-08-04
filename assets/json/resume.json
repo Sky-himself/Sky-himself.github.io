@@ -1,221 +1,226 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ehsan Moradi",
+    "label": "M.Sc. Student in Computer Engineering",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "e.moradi274@gmail.com",
+    "phone": "+98 (930) 175 4112",
+    "summary": "M.Sc. Student in Computer Engineering at Amirkabir University of Technology (Tehran Polytechnic), researching proactive auto-scaling, edge computing, and distributed systems.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Tehran",
+      "countryCode": "IR",
+      "region": "Tehran"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "its-ehsan-moradi",
+        "url": "https://linkedin.com/in/its-ehsan-moradi"
+      },
+      {
+        "network": "GitHub",
+        "username": "Sky-himself",
+        "url": "https://github.com/Sky-himself"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
-    },
-    {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "DiSL (Data in Science Laboratory)",
+      "position": "Software Engineering Intern",
+      "location": "Qazvin, Iran",
+      "startDate": "2022-02-01",
+      "endDate": "2023-03-01",
+      "summary": "Served as the core developer for 'Question Party,' an interactive, cross-platform application.",
+      "highlights": [
+        "Architected and developed scalable backend RESTful APIs and real-time communication features using Python, Flask (SocketIO, Login), and MongoDB (PyMongo).",
+        "Built responsive user interfaces for both mobile and web platforms using Flutter and Flutter Web.",
+        "Managed server deployment and containerization utilizing Docker, Nginx, uWSGI, and Linux environments to ensure high availability and optimal performance."
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Amirkabir University of Technology",
+      "location": "Tehran, Iran",
+      "position": "Teaching Assistant, Applied Machine Learning & Distributed Systems",
+      "startDate": "2026-01-01",
+      "endDate": "2026-06-01",
+      "summary": "Teaching Assistant for two M.Sc. courses.",
+      "highlights": []
+    },
+    {
+      "organization": "Amirkabir University of Technology",
+      "location": "Tehran, Iran",
+      "position": "Teaching Assistant, Logic Circuit Design",
+      "startDate": "2025-09-01",
+      "endDate": "2026-01-01",
+      "summary": "Teaching Assistant for undergraduate course.",
+      "highlights": []
+    },
+    {
+      "organization": "Amirkabir University of Technology",
+      "location": "Tehran, Iran",
+      "position": "Seminar Presenter, Applied Machine Learning",
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-01",
+      "summary": "Presented on Recurrent Neural Networks & LSTMs.",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "Amirkabir University of Technology (Tehran Polytechnic)",
+      "location": "Tehran, Iran",
+      "url": "",
+      "area": "Computer Engineering",
+      "studyType": "M.Sc.",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
+      "score": "3.77/4",
+      "courses": [
+        "Distributed Systems (4/4)",
+        "Cloud Computing (4/4)",
+        "Applied Machine Learning (4/4)",
+        "Dependable Systems Design (4/4)",
+        "Systems Analysis and Design (4/4)"
+      ],
+      "highlights": [
+        "M.Sc. Thesis: 'A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing,' under supervision of Dr. S.A. Javadi"
+      ]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
+      "institution": "IK International University",
+      "location": "Qazvin, Iran",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2017-09-01",
+      "endDate": "2022-09-01",
+      "score": "3.07/4",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": [
+        "B.Sc. Project: 'Full-stack web-application and mobile app of an online and interactive quiz game (called Question Party),' under supervision of Dr. Ali Khaleghi"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Ranked 2nd among all M.Sc. students",
+      "date": "2023-01-01",
+      "awarder": "Department of Computer Engineering, Amirkabir University (Class of 2023)",
+      "summary": ""
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
+      "title": "Top 1% of participants in Iran's university entrance exam for M.Sc.",
+      "date": "2023-01-01",
+      "awarder": "National Entrance Exam",
+      "summary": ""
+    },
+    {
+      "title": "Top 2% of participants in Iran's university entrance exam for B.Sc.",
+      "date": "2017-01-01",
+      "awarder": "National Entrance Exam",
       "summary": ""
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Vicinity-Aware Proactive Auto-Scaling for Containerized Edge Clusters",
+      "publisher": "Manuscript in preparation",
+      "releaseDate": "2026-08-01",
+      "url": "https://github.com/Sky-himself",
+      "summary": "Co-authored with Dr. S. A. Javadi."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Distributed & Cloud",
+      "level": "Advanced",
+      "icon": "fa-solid fa-cloud",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Kubernetes",
+        "Docker",
+        "Hadoop (HDFS/YARN)",
+        "MapReduce",
+        "Firebase (BaaS)",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Python",
+        "Deep Learning (CNN, RNN, LSTM)",
+        "Transfer Learning",
+        "NLP",
+        "Bayesian Networks"
+      ]
+    },
+    {
+      "name": "Development & Databases",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Flutter",
+        "Flask",
+        "MongoDB",
+        "Firestore",
+        "RESTful APIs",
+        "Git"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-network-wired",
+      "keywords": [
+        "Network+",
+        "CCNA",
+        "MCSA (Certified)"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Persian",
+      "fluency": "Native",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Professional (TOEFL iBT: 118/120)",
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Distributed Systems (M.Sc.)",
+      "summary": "Implemented distributed synchronization and analyzed consistency models and Paxos-based transaction protocols.",
+      "highlights": [],
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "name": "Applied Machine Learning (M.Sc.)",
+      "summary": "Reproduced a 2024 Computer Vision research paper using a hybrid Deep Learning model (VGG19 + SVM).",
+      "highlights": [],
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "name": "Systems Analysis and Design",
+      "summary": "Conducted comprehensive process modeling and system analysis for the 'South Tehran Health Center' organization.",
+      "highlights": [],
+      "startDate": "",
+      "endDate": ""
     }
   ]
 }
