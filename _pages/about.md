@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: M.Sc. Student at <a href='https://aut.ac.ir/en'>Amirkabir University of Technology</a>
+subtitle: M.Sc. Student in Computer Engineering at <a href='https://aut.ac.ir/en'>Amirkabir University of Technology</a>
+nav: true
+nav_order: 1
 
 profile:
   align: right
