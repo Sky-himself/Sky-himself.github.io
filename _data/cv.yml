@@ -107,18 +107,10 @@ cv:
       - name: Development & Databases
         keywords: "Flutter, Flask, MongoDB, Firestore, RESTful APIs, Git"
       - name: Networking
-        keywords: "Network+, CCNA, MCSA (Certified)"
+        keywords: "Network+, CCNA, MCSA"
 
     Languages:
       - name: English
         summary: "Professional — TOEFL iBT 6.0/6 (CEFR C2, ~118/120). Reading 5.5, Listening 6.0, Speaking 5.5, Writing 6.0"
       - name: Persian
         summary: "Native"
-
-    Certificates:
-      - name: CCNA
-        issuer: Cisco
-      - name: Network+
-        issuer: CompTIA
-      - name: MCSA
-        issuer: Microsoft
