@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.Sc. Student at <a href='https://aut.ac.ir/en'>Amirkabir University of Technology</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Tehran, Iran</p>
+    <p><a href="mailto:e.moradi274@gmail.com">e.moradi274@gmail.com</a></p>
+    <p>+98 (930) 175 4112</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an M.Sc. student in Computer Engineering at Amirkabir University of Technology (Tehran Polytechnic). My research, supervised by Dr. S.A. Javadi, centers on edge computing, distributed systems, and proactive auto-scaling. My current thesis work focuses on developing a hierarchical orchestration framework that optimizes resource allocation for containerized edge clusters.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Alongside my research, I serve as a Teaching Assistant for M.Sc. courses in Applied Machine Learning and Distributed Systems. I hold a B.Sc. in Computer Science from IK International University, and I have industry experience working as a Software Engineering Intern at DiSL (Data in Science Laboratory). During my time in the industry, I architected scalable backend RESTful APIs, built interactive cross-platform applications, and managed server deployments using Docker and Linux environments.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As I organize my timelines and review my materials for the upcoming academic application cycle, I am actively seeking opportunities to further explore cloud-native computing, AI, and distributed architectures.
