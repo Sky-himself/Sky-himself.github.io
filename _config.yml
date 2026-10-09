@@ -11,8 +11,6 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   M.Sc. student in Computer Engineering at Amirkabir University of Technology. Researching proactive auto-scaling, edge computing, and distributed systems.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: ehsan moradi, computer engineering, edge computing, auto-scaling, distributed systems, amirkabir university
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
