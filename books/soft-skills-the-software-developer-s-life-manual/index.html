@@ -1,0 +1,633 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Soft Skills: The Software Developer's Life Manual | Ehsan Moradi </title> <meta name="author" content="Ehsan Moradi"> <meta name="description" content="M.Sc. student in Computer Engineering at Amirkabir University of Technology. Researching proactive auto-scaling, edge computing, and distributed systems. "> <meta name="keywords" content="ehsan moradi, computer engineering, edge computing, auto-scaling, distributed systems, amirkabir university"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=e272beb2a356f3d9abedbe97e457f5c2"> <link rel="canonical" href="https://emoradi.ir/books/soft-skills-the-software-developer-s-life-manual/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Ehsan Moradi </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">Home </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item active"> <a class="nav-link" href="/books/">bookshelf <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Soft Skills: The Software Developer's Life Manual</h1> <p class="post-meta"> John Sonmez </p> <p class="post-meta"> <i class="fa-solid fa-play fa-sm" style="color: var(--global-tip-block) !important"></i> <em>2022-05-26</em> </p> <p class="post-tags"> <a href="/books/2022"> <i class="fa-solid fa-calendar fa-sm"></i> 2022</a> </p> <hr> </header> <article> <figure> <img alt="Soft Skills: The Software Developer's Life Manual cover" src="/assets/img/book_covers/soft-skills-the-software-developer-s-life-manual.jpg"> <figcaption> Cover of <em>Soft Skills: The Software Developer's Life Manual</em> </figcaption> </figure> <br class="mobile-break" clear="right"> <h4> </h4> </article> </div> <style>
+      .post article {
+        display: flow-root;
+      }
+      figure {
+        float: none;
+        width: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+
+      }
+      figure  > img {
+
+           vertical-align: top;
+           display: block;
+           margin-right: 0px;
+           margin-left: 0px;
+           padding: 0px;
+
+      }
+      figure figcaption {
+
+        display: block;
+        caption-side: bottom;
+        text-align: center;
+      }
+
+      @media screen and (min-width: 600px)  {
+
+        .empty-review{
+          float: left;
+          display: block; /* in-line block; */
+          margin: 0px 0px 0px 0px;  /* adjust as needed */
+          padding: 0px 0px 0px 20px;
+         /* top right bottom left */
+          }
+
+         .empty-review-caption {
+                  caption-side: left;
+                  text-align: left;
+
+
+                  }
+
+          .empty-review-cover {
+              width:250px;
+              vertical-align: top;
+              padding-right: 40px;
+              }
+
+          figure {
+
+                float: right;
+                display: inline-block; /* inline-block; */
+                margin: 0px 0px 0px 0px;  /* adjust as needed */
+                padding: 0px 0px 0px 20px;
+               /* top right bottom left */
+              }
+
+          figure img {
+                  width:300px;
+                  vertical-align: top;
+
+                }
+
+          figure figcaption {
+                  caption-side: bottom;
+                  text-align: left;
+
+                  }
+
+          .mobile-break { display: none; }
+
+  /* =Blockquote
+  -------------------------------------------------------------- */
+  blockquote {
+
+      position: relative;
+      margin: 0px;
+      display: table;
+
+  }
+  blockquote:before, blockquote:after {
+
+   /* properties to format the block quotes /*
+
+  }
+  blockquote:before {
+      top: 0;
+      left: 0;
+
+
+  }
+  blockquote:after {
+      top: 0;
+      right: 0;
+
+  }
+</style> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Ehsan Moradi. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-home",
+    title: "Home",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum vitae, aligned with the PDF linked above. Email is the best contact for PhD applications.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "M.Sc. thesis on proactive auto-scaling for a hierarchical edge orchestrator.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research for the M.Sc. thesis and earlier software projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Teaching assistance and a seminar at Amirkabir University of Technology.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Selected public repositories. The thesis code is not public yet.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "books-becoming",
+          title: 'Becoming',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/becoming/";
+            },},{id: "books-can-39-t-hurt-me-master-your-mind-and-defy-the-odds",
+          title: 'Can&amp;#39;t Hurt Me: Master Your Mind and Defy the Odds',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/can-t-hurt-me-master-your-mind-and-defy-the-odds/";
+            },},{id: "books-deep-work-rules-for-focused-success-in-a-distracted-world",
+          title: 'Deep Work: Rules for Focused Success in a Distracted World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep-work-rules-for-focused-success-in-a-distracted-world/";
+            },},{id: "books-drive-the-surprising-truth-about-what-motivates-us",
+          title: 'Drive: The Surprising Truth About What Motivates Us',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/drive-the-surprising-truth-about-what-motivates-us/";
+            },},{id: "books-getting-things-done-the-art-of-stress-free-productivity",
+          title: 'Getting Things Done: The Art of Stress-Free Productivity',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/getting-things-done-the-art-of-stress-free-productivity/";
+            },},{id: "books-hell-yeah-or-no-what-39-s-worth-doing",
+          title: 'Hell Yeah or No: What&amp;#39;s Worth Doing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hell-yeah-or-no-what-s-worth-doing/";
+            },},{id: "books-i-am-malala-the-story-of-the-girl-who-stood-up-for-education-and-was-shot-by-the-taliban",
+          title: 'I Am Malala: The Story of the Girl Who Stood Up for Education...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/i-am-malala-the-story-of-the-girl-who-stood-up-for-education-and-was-s/";
+            },},{id: "books-outliers-the-story-of-success",
+          title: 'Outliers: The Story of Success',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/outliers-the-story-of-success/";
+            },},{id: "books-steve-jobs",
+          title: 'Steve Jobs',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/steve-jobs/";
+            },},{id: "books-the-4-hour-workweek",
+          title: 'The 4-Hour Workweek',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-4-hour-workweek/";
+            },},{id: "books-the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness",
+          title: 'The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness/";
+            },},{id: "books-the-subtle-art-of-not-giving-a-f-ck-a-counterintuitive-approach-to-living-a-good-life",
+          title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-subtle-art-of-not-giving-a-f-ck-a-counterintuitive-approach-to-liv/";
+            },},{id: "books-we-should-all-be-feminists",
+          title: 'We Should All Be Feminists',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/we-should-all-be-feminists/";
+            },},{id: "books-حرکت",
+          title: 'حرکت',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/book-21861006/";
+            },},{id: "books-جزء-از-کل",
+          title: 'جزء از کل',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/book-25155851/";
+            },},{id: "books-creativity-inc-overcoming-the-unseen-forces-that-stand-in-the-way-of-true-inspiration",
+          title: 'Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/creativity-inc-overcoming-the-unseen-forces-that-stand-in-the-way-of-t/";
+            },},{id: "books-four-thousand-weeks-time-management-for-mortals",
+          title: 'Four Thousand Weeks: Time Management for Mortals',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/four-thousand-weeks-time-management-for-mortals/";
+            },},{id: "books-how-to-take-smart-notes",
+          title: 'How to Take Smart Notes',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-take-smart-notes/";
+            },},{id: "books-make-it-stick-the-science-of-successful-learning",
+          title: 'Make It Stick: The Science of Successful Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/make-it-stick-the-science-of-successful-learning/";
+            },},{id: "books-make-time-how-to-focus-on-what-matters-every-day",
+          title: 'Make Time: How to Focus on What Matters Every Day',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/make-time-how-to-focus-on-what-matters-every-day/";
+            },},{id: "books-pour-your-heart-into-it-how-starbucks-built-a-company-one-cup-at-a-time",
+          title: 'Pour Your Heart Into It: How Starbucks Built a Company One Cup at...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/pour-your-heart-into-it-how-starbucks-built-a-company-one-cup-at-a-tim/";
+            },},{id: "books-the-choice-embrace-the-possible",
+          title: 'The Choice: Embrace the Possible',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-choice-embrace-the-possible/";
+            },},{id: "books-the-signal-and-the-noise-why-so-many-predictions-fail-but-some-don-39-t",
+          title: 'The Signal and the Noise: Why So Many Predictions Fail—But Some Don&amp;#39;t',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-signal-and-the-noise-why-so-many-predictions-failbut-some-don-t/";
+            },},{id: "books-the-status-game-on-human-life-and-how-to-play-it",
+          title: 'The Status Game: On Human Life and How to Play It',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-status-game-on-human-life-and-how-to-play-it/";
+            },},{id: "books-zero-to-one-notes-on-startups-or-how-to-build-the-future",
+          title: 'Zero to One: Notes on Startups, or How to Build the Future',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/zero-to-one-notes-on-startups-or-how-to-build-the-future/";
+            },},{id: "books-educated",
+          title: 'Educated',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/educated/";
+            },},{id: "books-راهنمای-تفکر-نقادانه-پرسیدن-سوال-های-به-جا",
+          title: 'راهنمای تفکر نقادانه: پرسیدن سوال‌های به‌جا',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/book-18902109/";
+            },},{id: "books-the-48-laws-of-power",
+          title: 'The 48 Laws of Power',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-48-laws-of-power/";
+            },},{id: "books-the-handmaid-s-tale-the-handmaid-39-s-tale-1",
+          title: 'The Handmaid’s Tale (The Handmaid&amp;#39;s Tale, #1)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-handmaids-tale-the-handmaid-s-tale-1/";
+            },},{id: "books-12-rules-for-life-an-antidote-to-chaos",
+          title: '12 Rules for Life: An Antidote to Chaos',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/12-rules-for-life-an-antidote-to-chaos/";
+            },},{id: "books-clean-code-a-handbook-of-agile-software-craftsmanship",
+          title: 'Clean Code: A Handbook of Agile Software Craftsmanship',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/clean-code-a-handbook-of-agile-software-craftsmanship/";
+            },},{id: "books-cracking-the-coding-interview-150-programming-questions-and-solutions",
+          title: 'Cracking the Coding Interview: 150 Programming Questions and Solutions',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cracking-the-coding-interview-150-programming-questions-and-solutions/";
+            },},{id: "books-soft-skills-the-software-developer-39-s-life-manual",
+          title: 'Soft Skills: The Software Developer&amp;#39;s Life Manual',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/soft-skills-the-software-developer-s-life-manual/";
+            },},{id: "books-becoming-steve-jobs-the-evolution-of-a-reckless-upstart-into-a-visionary-leader",
+          title: 'Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/becoming-steve-jobs-the-evolution-of-a-reckless-upstart-into-a-visiona/";
+            },},{id: "books-talk-like-ted-the-9-public-speaking-secrets-of-the-world-39-s-top-minds",
+          title: 'Talk Like TED: The 9 Public-Speaking Secrets of the World&amp;#39;s Top Minds',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/talk-like-ted-the-9-public-speaking-secrets-of-the-world-s-top-minds/";
+            },},{id: "books-how-to-win-friends-amp-influence-people",
+          title: 'How to Win Friends &amp;amp; Influence People',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-win-friends-influence-people/";
+            },},{id: "books-shoe-dog-a-memoir-by-the-creator-of-nike",
+          title: 'Shoe Dog: A Memoir by the Creator of NIKE',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/shoe-dog-a-memoir-by-the-creator-of-nike/";
+            },},{id: "books-the-unfair-advantage-how-you-already-have-what-it-takes-to-succeed",
+          title: 'The Unfair Advantage: How You Already Have What It Takes to Succeed',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-unfair-advantage-how-you-already-have-what-it-takes-to-succeed/";
+            },},{id: "books-surely-you-re-joking-mr-feynman",
+          title: 'Surely You`re Joking, Mr. Feynman!',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/surely-you-re-joking-mr-feynman/";
+            },},{id: "books-atlas-of-the-heart-mapping-meaningful-connection-and-the-language-of-human-experience",
+          title: 'Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/atlas-of-the-heart-mapping-meaningful-connection-and-the-language-of-h/";
+            },},{id: "books-building-a-second-brain-a-proven-method-to-organize-your-digital-life-and-unlock-your-creative-potential",
+          title: 'Building a Second Brain: A Proven Method to Organize Your Digital Life and...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/building-a-second-brain-a-proven-method-to-organize-your-digital-life/";
+            },},{id: "books-why-has-nobody-told-me-this-before",
+          title: 'Why Has Nobody Told Me This Before?',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/why-has-nobody-told-me-this-before/";
+            },},{id: "books-that-will-never-work-the-birth-of-netflix-and-the-amazing-life-of-an-idea",
+          title: 'That Will Never Work: The Birth of Netflix and the Amazing Life of...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/that-will-never-work-the-birth-of-netflix-and-the-amazing-life-of-an-i/";
+            },},{id: "books-feel-good-productivity-how-to-do-more-of-what-matters-to-you",
+          title: 'Feel-Good Productivity: How to Do More of What Matters to You',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/feel-good-productivity-how-to-do-more-of-what-matters-to-you/";
+            },},{id: "books-the-boy-the-mole-the-fox-and-the-horse-limited-edition",
+          title: 'The Boy, The Mole, The Fox and The Horse (Limited Edition)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-boy-the-mole-the-fox-and-the-horse-limited-edition/";
+            },},{id: "books-1984",
+          title: '1984',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/1984/";
+            },},{id: "books-grief-is-for-people",
+          title: 'Grief Is for People',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/grief-is-for-people/";
+            },},{id: "books-slow-productivity-the-lost-art-of-accomplishment-without-burnout",
+          title: 'Slow Productivity: The Lost Art of Accomplishment Without Burnout',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/slow-productivity-the-lost-art-of-accomplishment-without-burnout/";
+            },},{id: "books-supercommunicators-how-to-unlock-the-secret-language-of-connection",
+          title: 'Supercommunicators: How to Unlock the Secret Language of Connection',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/supercommunicators-how-to-unlock-the-secret-language-of-connection/";
+            },},{id: "books-animal-farm",
+          title: 'Animal Farm',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/animal-farm/";
+            },},{id: "books-خاطرات-سفیر",
+          title: 'خاطرات سفیر',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/book-38336325/";
+            },},{id: "books-how-to-talk-to-anyone-92-little-tricks-for-big-success-in-relationships",
+          title: 'How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-talk-to-anyone-92-little-tricks-for-big-success-in-relationship/";
+            },},{id: "books-stoner",
+          title: 'Stoner',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/stoner/";
+            },},{id: "books-surrounded-by-idiots",
+          title: 'Surrounded by Idiots',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/surrounded-by-idiots/";
+            },},{id: "books-the-12-week-year-get-more-done-in-12-weeks-than-others-do-in-12-months",
+          title: 'The 12 Week Year: Get More Done in 12 Weeks than Others Do...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-12-week-year-get-more-done-in-12-weeks-than-others-do-in-12-months/";
+            },},{id: "books-who-moved-my-cheese",
+          title: 'Who Moved My Cheese?',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/who-moved-my-cheese/";
+            },},{id: "books-100m-offers-how-to-make-offers-so-good-people-feel-stupid-saying-no",
+          title: '$100M Offers: How To Make Offers So Good People Feel Stupid Saying No...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/100m-offers-how-to-make-offers-so-good-people-feel-stupid-saying-no/";
+            },},{id: "books-atomic-habits-an-easy-amp-proven-way-to-build-good-habits-amp-break-bad-ones",
+          title: 'Atomic Habits: An Easy &amp;amp; Proven Way to Build Good Habits &amp;amp; Break...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/atomic-habits-an-easy-proven-way-to-build-good-habits-break-bad-ones/";
+            },},{id: "books-million-dollar-weekend-the-surprisingly-simple-way-to-launch-a-7-figure-business-in-48-hours",
+          title: 'Million Dollar Weekend: The Surprisingly Simple Way to Launch a 7-Figure Business in...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/million-dollar-weekend-the-surprisingly-simple-way-to-launch-a-7-figur/";
+            },},{id: "books-the-making-of-a-manager-what-to-do-when-everyone-looks-to-you",
+          title: 'The Making of a Manager: What to Do When Everyone Looks to You...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-making-of-a-manager-what-to-do-when-everyone-looks-to-you/";
+            },},{id: "books-the-millionaire-fastlane-crack-the-code-to-wealth-and-live-rich-for-a-lifetime",
+          title: 'The Millionaire Fastlane: Crack the Code to Wealth and Live Rich for a...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-millionaire-fastlane-crack-the-code-to-wealth-and-live-rich-for-a/";
+            },},{id: "books-what-got-you-here-won-39-t-get-you-there",
+          title: 'What Got You Here Won&amp;#39;t Get You There',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what-got-you-here-won-t-get-you-there/";
+            },},{id: "books-wishes-won-39-t-bring-riches-the-mental-dynamite-series",
+          title: 'Wishes Won&amp;#39;t Bring Riches (The Mental Dynamite Series)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wishes-won-t-bring-riches-the-mental-dynamite-series/";
+            },},{id: "news-ranked-2nd-among-m-sc-students-in-the-department-of-computer-engineering-at-amirkabir-university-of-technology-in-the-cohort-that-entered-in-september-2023-coursework-ran-four-semesters-the-fourth-was-spring-2025-and-amirkabir-39-s-exam-period-for-that-semester-ended-on-9-july-2025",
+          title: 'Ranked 2nd among M.Sc. students in the Department of Computer Engineering at Amirkabir...',
+          description: "",
+          section: "News",},{id: "news-teaching-assistant-for-distributed-systems-and-applied-machine-learning-at-amirkabir-university-of-technology-in-spring-2026",
+          title: 'Teaching assistant for Distributed Systems and Applied Machine Learning at Amirkabir University of...',
+          description: "",
+          section: "News",},{id: "news-defence-of-a-proactive-container-based-auto-scaling-approach-for-a-hierarchical-orchestration-framework-for-edge-computing-supervised-by-dr-seyyed-ahmad-javadi-is-scheduled-for-19-october-2026-the-controller-and-the-hierarchicaledgesim-simulator-are-private-i-can-share-them-on-request",
+          title: 'Defence of _A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for...',
+          description: "",
+          section: "News",},{id: "projects-computer-vision-paper-reproduction",
+          title: 'Computer-vision paper reproduction',
+          description: "M.Sc. coursework. A 2024 vision paper reproduced with VGG19 and an SVM.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/applied-machine-learning/";
+            },},{id: "projects-used-oil-collection-prototype",
+          title: 'Used-oil collection prototype',
+          description: "Interface prototype for a used-cooking-oil collection idea.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/biodiesel-mvp/";
+            },},{id: "projects-catalogue-maker",
+          title: 'Catalogue maker',
+          description: "Flutter app that turns a product list into a PDF catalogue.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/catalogue-maker/";
+            },},{id: "projects-distributed-synchronization-and-paxos",
+          title: 'Distributed synchronization and Paxos',
+          description: "M.Sc. coursework on consistency, synchronization, and Paxos-based transactions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/distributed-systems/";
+            },},{id: "projects-proactive-auto-scaling-for-hierarchical-edge-orchestration",
+          title: 'Proactive auto-scaling for hierarchical edge orchestration',
+          description: "M.Sc. thesis. Defence scheduled for 19 October 2026. A TCN-guided three-rung scaler for containerized edge microservices.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/edge-autoscaling/";
+            },},{id: "projects-golestan-interface-redesign",
+          title: 'Golestan interface redesign',
+          description: "Desktop UI redesign of the Golestan student system, from an HCI course.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/golestan-ui/";
+            },},{id: "projects-hamyar",
+          title: 'Hamyar',
+          description: "Flutter app for teachers to keep track of students.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hamyar/";
+            },},{id: "projects-mafia",
+          title: 'Mafia',
+          description: "Android app that deals roles for the party game Mafia.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mafia/";
+            },},{id: "projects-personal-dictionary",
+          title: 'Personal dictionary',
+          description: "A Flutter app for building and reviewing a personal vocabulary list.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/personal-dictionary/";
+            },},{id: "projects-questionparty",
+          title: 'QuestionParty',
+          description: "B.Sc. project and DiSL internship. Cross-platform quiz application.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/questionparty/";
+            },},{id: "projects-south-tehran-health-center",
+          title: 'South Tehran Health Center',
+          description: "Process modeling and systems analysis for a public health organization.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/south-tehran-health-center/";
+            },},{id: "projects-structure-assembling-robot",
+          title: 'Structure assembling robot',
+          description: "Embedded control and an Android client for a mechanical assembly prototype.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/structure-assembling-robot/";
+            },},{id: "teachings-applied-machine-learning",
+          title: 'Applied Machine Learning',
+          description: "Teaching assistant. Clustering homework and a quiz on k-nearest neighbors, trees, and metrics.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/applied-machine-learning/";
+            },},{id: "teachings-distributed-systems",
+          title: 'Distributed Systems',
+          description: "Teaching assistant. Clocks, commitment protocols, and a Paxos programming assignment.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/distributed-systems/";
+            },},{id: "teachings-logic-circuit-design",
+          title: 'Logic Circuit Design',
+          description: "Teaching assistant. Boolean algebra, Karnaugh maps, binary arithmetic, and state machines.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/logic-circuit-design/";
+            },},{id: "teachings-recurrent-neural-networks-and-lstms",
+          title: 'Recurrent Neural Networks and LSTMs',
+          description: "Seminar in Applied Machine Learning. Feed-forward revision, recurrence, vanishing gradients, and LSTMs.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/recurrent-neural-networks/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/EhsanMoradi_CV.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%65.%6D%6F%72%61%64%69%32%37%34@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Sky-himself", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/its-ehsan-moradi", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.goodreads.com/user/show/150894944-ehsan", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
