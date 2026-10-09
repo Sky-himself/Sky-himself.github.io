@@ -1,13 +1,14 @@
 ---
 ---
 
-@unpublished{moradi2026vicinity,
-  selected = {true},
-  title     = {Vicinity-Aware Proactive Auto-Scaling for Containerized Edge Clusters},
-  author    = {Moradi, Ehsan and Javadi, S. A.},
-  note      = {Manuscript in preparation},
+@mastersthesis{moradi2026autoscaling,
+  selected  = {true},
+  title     = {A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing},
+  author    = {Moradi, Ehsan},
+  school    = {Amirkabir University of Technology (Tehran Polytechnic)},
   year      = {2026},
-  code      = {https://github.com/Sky-himself},
-  abbr      = {Preprint},
-  abstract  = {This paper proposes a proactive container-based auto-scaling approach for hierarchical edge computing environments. The architecture utilizes three primary layers: a central cloud server, cluster managers, and edge nodes. To efficiently handle workload demands, the system relies on a multi-tier escalation pipeline. Scaling decisions progress through Best-Effort Vertical (BEV) and Best-Effort Horizontal (BEH) scaling within a cluster, before escalating to Vicinity (BEVI) and Global (BEG) inter-cluster scaling. By establishing a vicinity of 1 to 3 geographically proximate clusters, the framework facilitates direct instance borrowing to minimize response time and optimize resource utilization.}
+  month     = {October},
+  note      = {Supervised by Dr. Seyyed Ahmad Javadi. Defence scheduled for 19 October 2026},
+  abbr      = {M.Sc. thesis},
+  abstract  = {Edge computing hosts latency-sensitive containerized microservices close to users, but tight resources and bursty load make elastic provisioning difficult. Reactive scalers such as the Kubernetes Horizontal Pod Autoscaler pay a container cold-start delay during a burst. Calling a cloud datacenter at runtime adds wide-area delay, and inter-cluster coordination conflicts with cluster autonomy if a worker can be written by more than one owner. This thesis specifies a proactive hierarchical autoscaler that does not depend on the cloud at runtime and keeps the single-writer rule: only the cluster that owns a worker may modify it. Capacity is acquired on a three-rung ladder: in-place vertical resizing, a new local replica, then a loan from a peer cluster inside the same vicinity. A residual temporal convolutional network, trained with an asymmetric penalty so that under-prediction costs more than over-prediction, forecasts each service from its own series. A confidence gate withholds that forecast until enough history has been seen. Evaluations in the reference simulator HierarchicalEdgeSim, driven by Alibaba production traces, drop no requests on a single service, against 14.59 percent for the reactive ladder. On two services the drop rate is 0.11 percent and the SLA-violation rate is 0.21 percent, against 9.29 percent dropped and 37.50 percent in violation for HPA. In a multi-owner setting the same scaler bounds drops at 0.11 percent, against 30.14 percent for HPA.}
 }

@@ -48,8 +48,10 @@
       "position": "Teaching Assistant, Applied Machine Learning & Distributed Systems",
       "startDate": "2026-01-01",
       "endDate": "2026-06-01",
-      "summary": "Teaching Assistant for two M.Sc. courses.",
-      "highlights": []
+      "summary": "One of four teaching assistants. Homework on logical time, commitment protocols, and a Paxos programming assignment.",
+      "highlights": [
+        "Also graded Applied Machine Learning Exercise 4 (clustering), Exercise 5, and Quiz 2 on k-nearest neighbors, decision trees, and classification metrics, for Dr. Ehsan Nazerfard."
+      ]
     },
     {
       "organization": "Amirkabir University of Technology",
@@ -57,7 +59,7 @@
       "position": "Teaching Assistant, Logic Circuit Design",
       "startDate": "2025-09-01",
       "endDate": "2026-01-01",
-      "summary": "Teaching Assistant for undergraduate course.",
+      "summary": "Homework on Boolean algebra, Karnaugh maps, binary arithmetic, and synchronous state machines.",
       "highlights": []
     },
     {
@@ -66,7 +68,7 @@
       "position": "Seminar Presenter, Applied Machine Learning",
       "startDate": "2025-01-01",
       "endDate": "2025-06-01",
-      "summary": "Presented on Recurrent Neural Networks & LSTMs.",
+      "summary": "An Introduction to Recurrent Neural Networks (and beyond!), including vanishing gradients and LSTMs.",
       "highlights": []
     }
   ],
@@ -88,7 +90,8 @@
         "Systems Analysis and Design (4/4)"
       ],
       "highlights": [
-        "M.Sc. Thesis: 'A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing,' under supervision of Dr. S.A. Javadi"
+        "M.Sc. Thesis: 'A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing,' supervised by Dr. Seyyed Ahmad Javadi",
+        "Coursework graded 4/4: Distributed Systems, Cloud Computing, Applied Machine Learning, Dependable Systems Design, and Systems Analysis and Design"
       ]
     },
     {
@@ -109,9 +112,9 @@
   "awards": [
     {
       "title": "Ranked 2nd among all M.Sc. students",
-      "date": "2023-01-01",
-      "awarder": "Department of Computer Engineering, Amirkabir University (Class of 2023)",
-      "summary": ""
+      "date": "2025-07-09",
+      "awarder": "Department of Computer Engineering, Amirkabir University (entered 2023)",
+      "summary": "Ranked 2nd after the fourth semester, when coursework finished."
     },
     {
       "title": "Top 1% of participants in Iran's university entrance exam for M.Sc.",
@@ -129,11 +132,10 @@
   "certificates": [],
   "publications": [
     {
-      "name": "Vicinity-Aware Proactive Auto-Scaling for Containerized Edge Clusters",
-      "publisher": "Manuscript in preparation",
-      "releaseDate": "2026-08-01",
-      "url": "https://github.com/Sky-himself",
-      "summary": "Co-authored with Dr. S. A. Javadi."
+      "name": "A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing",
+      "publisher": "M.Sc. thesis, Amirkabir University of Technology",
+      "releaseDate": "2026-10-19",
+      "summary": "Supervised by Dr. Seyyed Ahmad Javadi. Defence scheduled for 19 October 2026."
     }
   ],
   "skills": [
@@ -156,9 +158,8 @@
       "icon": "fa-solid fa-brain",
       "keywords": [
         "Python",
-        "Deep Learning (CNN, RNN, LSTM)",
+        "Deep Learning (CNN, RNN, LSTM, TCN)",
         "Transfer Learning",
-        "NLP",
         "Bayesian Networks"
       ]
     },
@@ -182,7 +183,7 @@
       "keywords": [
         "Network+",
         "CCNA",
-        "MCSA (Certified)"
+        "MCSA"
       ]
     }
   ],
@@ -194,13 +195,31 @@
     },
     {
       "language": "English",
-      "fluency": "Professional (TOEFL iBT: 118/120)",
+      "fluency": "Professional — TOEFL iBT 6.0/6 (CEFR C2, comparable to 118/120). Reading 5.5, Listening 6.0, Speaking 5.5, Writing 6.0",
       "icon": ""
     }
   ],
   "interests": [],
   "references": [],
   "projects": [
+    {
+      "name": "A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing",
+      "summary": "M.Sc. thesis. Three-rung proactive scaling for containerized edge microservices, driven by a per-service temporal convolutional network and evaluated in HierarchicalEdgeSim.",
+      "highlights": [
+        "Vertical resize, then a local replica, then a loan inside a vicinity. The cloud is not consulted during a scaling window."
+      ],
+      "startDate": "2023-09-01",
+      "endDate": "2026-10-01"
+    },
+    {
+      "name": "Structure Assembling Robot",
+      "summary": "Cross-disciplinary prototype: embedded microcontroller logic and a native Android app to control a mechanical assembly robot over Bluetooth.",
+      "highlights": [
+        "Contributed to the prototype behind US Patent Application US20240084610A1."
+      ],
+      "startDate": "",
+      "endDate": ""
+    },
     {
       "name": "Distributed Systems (M.Sc.)",
       "summary": "Implemented distributed synchronization and analyzed consistency models and Paxos-based transaction protocols.",

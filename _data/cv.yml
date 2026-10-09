@@ -21,7 +21,9 @@ cv:
         end_date: present
         score: "GPA 3.77/4"
         highlights:
-          - "Thesis: \"A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing,\" supervised by Dr. S.A. Javadi"
+          - "GPA 3.77/4"
+          - "Thesis: \"A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing,\" supervised by Dr. Seyyed Ahmad Javadi"
+          - "Coursework graded 4/4: Distributed Systems, Cloud Computing, Applied Machine Learning, Dependable Systems Design, and Systems Analysis and Design"
       - institution: IK International University
         location: Qazvin, Iran
         area: Computer Science
@@ -30,6 +32,7 @@ cv:
         end_date: 2022-09
         score: "GPA 3.07/4"
         highlights:
+          - "GPA 3.07/4"
           - "Project: \"QuestionParty\" — full-stack web and mobile app for an online, interactive quiz game, supervised by Dr. Ali Khaleghi"
 
     Experience:
@@ -45,35 +48,21 @@ cv:
           - "Managed server deployment and containerization with Docker, Nginx, uWSGI, and Linux to ensure high availability and performance"
 
     Teaching:
-      - company: Amirkabir University of Technology (Tehran Polytechnic)
-        position: "Teaching Assistant — Applied Machine Learning & Distributed Systems"
-        location: Tehran, Iran
-        start_date: 2026-01
-        end_date: 2026-06
-      - company: Amirkabir University of Technology (Tehran Polytechnic)
-        position: "Teaching Assistant — Logic Circuit Design"
-        location: Tehran, Iran
-        start_date: 2025-09
-        end_date: 2025-12
-      - company: Amirkabir University of Technology (Tehran Polytechnic)
-        position: "Seminar Presenter — Recurrent Neural Networks & LSTMs (Applied Machine Learning)"
-        location: Tehran, Iran
-        start_date: 2025-01
-        end_date: 2025-06
+      - bullet: "Spring 2026. Teaching assistant, Distributed Systems. One of four assistants. Homework on Lamport and vector clocks, three-phase and nested two-phase commit, and a Paxos programming assignment."
+      - bullet: "Spring 2026. Teaching assistant, Applied Machine Learning, with Dr. Ehsan Nazerfard. Graded the clustering exercise and a later exercise, and Quiz 2 on k-nearest neighbors, decision trees, and classification metrics."
+      - bullet: "Fall 2025. Teaching assistant, Logic Circuit Design. Homework on Boolean algebra, Karnaugh maps, binary arithmetic, and synchronous state machines."
+      - bullet: "Spring 2025. Seminar in Applied Machine Learning: An Introduction to Recurrent Neural Networks (and beyond!), including vanishing and exploding gradients and LSTMs."
 
     Publications:
-      - title: "Vicinity-Aware Proactive Auto-Scaling for Containerized Edge Clusters"
-        authors:
-          - Ehsan Moradi
-          - S. A. Javadi
-        publisher: "Manuscript in preparation"
-        summary: "Code repository available on GitHub."
+      - title: "A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing"
+        publisher: "M.Sc. thesis, Amirkabir University of Technology"
+        summary: "Supervised by Dr. Seyyed Ahmad Javadi. Defence scheduled for 19 October 2026. A TCN-guided three-rung scaler for containerized edge microservices, evaluated in HierarchicalEdgeSim."
 
     Awards:
       - title: "2nd Place, M.Sc. Students, Dept. of Computer Engineering"
         awarder: Amirkabir University of Technology
-        date: 2023
-        summary: "Ranked 2nd among all M.Sc. students in the Department of Computer Engineering, Class of 2023."
+        date: 2025-07
+        summary: "Ranked 2nd among M.Sc. students in the Department of Computer Engineering after the fourth semester. Entered with the class of 2023."
       - title: "Top 1% — Iran's University Entrance Exam (M.Sc.)"
         awarder: "National Organization for Educational Testing, Iran"
         date: 2023
@@ -82,12 +71,13 @@ cv:
         date: 2017
 
     Projects:
-      - name: "Vicinity-Aware Proactive Auto-Scaling (M.Sc. Thesis)"
-        summary: "A proactive, container-based auto-scaling approach for a hierarchical orchestration framework for edge computing."
+      - name: "A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing"
+        summary: "M.Sc. thesis. Three-rung proactive scaling for containerized edge microservices, driven by a per-service temporal convolutional network."
         highlights:
-          - "Designed a vicinity-aware proactive auto-scaler for containerized edge clusters"
+          - "Vertical resize, then a local replica, then a loan inside a vicinity. The cloud is not consulted during a scaling window."
+          - "Evaluated in HierarchicalEdgeSim on Alibaba traces, against a reactive ladder, a last-value forecast, HPA, and a reduced ProScale."
         start_date: 2023-09
-        end_date: present
+        end_date: 2026-10
       - name: "Distributed Systems"
         summary: "Implemented distributed synchronization; analyzed consistency models and Paxos-based transaction protocols."
       - name: "Applied Machine Learning"
@@ -103,7 +93,7 @@ cv:
       - name: Distributed & Cloud
         keywords: "Kubernetes, Docker, Hadoop (HDFS/YARN), MapReduce, Firebase (BaaS), Microservices"
       - name: AI & Machine Learning
-        keywords: "Python, Deep Learning (CNN, RNN, LSTM), Transfer Learning, NLP, Bayesian Networks"
+        keywords: "Python, Deep Learning (CNN, RNN, LSTM, TCN), Transfer Learning, Bayesian Networks"
       - name: Development & Databases
         keywords: "Flutter, Flask, MongoDB, Firestore, RESTful APIs, Git"
       - name: Networking
@@ -111,6 +101,6 @@ cv:
 
     Languages:
       - name: English
-        summary: "Professional — TOEFL iBT 6.0/6 (CEFR C2, ~118/120). Reading 5.5, Listening 6.0, Speaking 5.5, Writing 6.0"
+        summary: "Professional — TOEFL iBT 6.0/6 (CEFR C2, comparable to 118/120). Reading 5.5, Listening 6.0, Speaking 5.5, Writing 6.0"
       - name: Persian
         summary: "Native"
