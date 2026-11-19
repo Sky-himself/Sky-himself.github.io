@@ -32,4 +32,4 @@ schedule:
         url: /assets/pdf/teaching/ehsan-moradi-rnn-seminar.pdf
 ---
 
-Spring 2025, Applied Machine Learning, Amirkabir University of Technology. The talk is *An Introduction to Recurrent Neural Networks (and beyond!)*, 67 slides. I gave it as a seminar in the course, the term before I was a teaching assistant for it.
+Spring 2025, Applied Machine Learning, Amirkabir University of Technology. The talk is _An Introduction to Recurrent Neural Networks (and beyond!)_, 67 slides. I gave it as a seminar in the course, the term before I was a teaching assistant for it.
