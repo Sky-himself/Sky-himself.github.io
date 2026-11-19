@@ -27,7 +27,7 @@ on:
         default: ""
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: update-screenshots
@@ -35,6 +35,8 @@ concurrency:
 
 jobs:
   screenshots:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     # This repo is a template; without the guard every generated site would
     # burn Actions minutes screenshotting its own pages into a README it does
@@ -42,7 +44,7 @@ jobs:
     if: github.repository == 'alshedivat/al-folio'
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           # Check out the branch by name. Called from release.yml the ref can be
           # a tag, which would leave a detached HEAD and make the push below
@@ -50,19 +52,19 @@ jobs:
           ref: ${{ github.event.repository.default_branch }}
 
       - name: Setup Ruby 💎
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@f9c4492e86def3e644ab32a0ef185eda5b0c20d0 # v1
         with:
           ruby-version: "3.3"
           bundler-cache: true
 
       - name: Setup Python 🐍
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.13"
           cache: "pip"
 
       - name: Setup Node 🟩
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: "20"
           cache: "npm"

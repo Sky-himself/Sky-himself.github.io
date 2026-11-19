@@ -34,3 +34,5 @@ When changing feature behavior, route the work to the owning plugin repo first. 
 - documentation, examples, integration tests, or visual parity coverage.
 
 See [Ownership Boundaries](BOUNDARIES.md) for the full routing table.
+
+[Workflow security](WORKFLOW_SECURITY.md) documents action pins and deployment permissions.

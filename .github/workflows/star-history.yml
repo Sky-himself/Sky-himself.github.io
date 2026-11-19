@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 # Never let two runs race to commit the same files.
 concurrency:
@@ -25,13 +25,15 @@ concurrency:
 
 jobs:
   update:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     # This repo is a template; without this guard every site generated from it
     # would burn Actions minutes charting someone else's repository.
     if: github.repository == 'alshedivat/al-folio'
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
       - name: Regenerate chart 📈
         env:

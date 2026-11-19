@@ -26,7 +26,7 @@ on:
         default: false
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: create-release
@@ -34,23 +34,26 @@ concurrency:
 
 jobs:
   release:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     # This repo is a template. Without this guard, every site generated from it
     # would expose a workflow that cuts releases of somebody else's project.
     if: github.repository == 'alshedivat/al-folio'
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           fetch-depth: 0
 
       - name: Validate inputs 🔍
         id: check
         env:
+          RELEASE_TAG: ${{ inputs.tag }}
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
-          tag="${{ inputs.tag }}"
+          tag="$RELEASE_TAG"
 
           # The dispatch UI lets you pick any branch, and GITHUB_SHA then points at
           # that branch's tip — which is what gets tagged below. Without this check a
@@ -88,11 +91,12 @@ jobs:
       - name: Create release 🚀
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ inputs.tag }}
         run: |
           set -euo pipefail
-          gh release create "${{ inputs.tag }}" \
+          gh release create "$RELEASE_TAG" \
             --target "${GITHUB_SHA}" \
-            --title "al-folio ${{ inputs.tag }}" \
+            --title "al-folio $RELEASE_TAG" \
             --notes-file "${{ steps.check.outputs.notes }}" \
             --draft=${{ inputs.draft }} \
             --prerelease=${{ inputs.prerelease }}
@@ -100,15 +104,16 @@ jobs:
       - name: Summary 📝
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ inputs.tag }}
         run: |
           {
-            echo "### al-folio ${{ inputs.tag }}"
+            echo "### al-folio $RELEASE_TAG"
             echo
             echo "- commit: \`${GITHUB_SHA}\`"
             echo "- draft: ${{ inputs.draft }}"
             echo "- prerelease: ${{ inputs.prerelease }}"
             echo
-            gh release view "${{ inputs.tag }}" --json url --jq '"[View release](" + .url + ")"'
+            gh release view "$RELEASE_TAG" --json url --jq '"[View release](" + .url + ")"'
           } >> "$GITHUB_STEP_SUMMARY"
 
   # Refresh the README screenshots against the release, since the theme has most
