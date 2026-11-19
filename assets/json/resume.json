@@ -143,48 +143,25 @@
       "name": "Distributed & Cloud",
       "level": "Advanced",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "Kubernetes",
-        "Docker",
-        "Hadoop (HDFS/YARN)",
-        "MapReduce",
-        "Firebase (BaaS)",
-        "Microservices"
-      ]
+      "keywords": ["Kubernetes", "Docker", "Hadoop (HDFS/YARN)", "MapReduce", "Firebase (BaaS)", "Microservices"]
     },
     {
       "name": "AI & Machine Learning",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Python",
-        "Deep Learning (CNN, RNN, LSTM, TCN)",
-        "Transfer Learning",
-        "Bayesian Networks"
-      ]
+      "keywords": ["Python", "Deep Learning (CNN, RNN, LSTM, TCN)", "Transfer Learning", "Bayesian Networks"]
     },
     {
       "name": "Development & Databases",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Flutter",
-        "Flask",
-        "MongoDB",
-        "Firestore",
-        "RESTful APIs",
-        "Git"
-      ]
+      "keywords": ["Flutter", "Flask", "MongoDB", "Firestore", "RESTful APIs", "Git"]
     },
     {
       "name": "Networking",
       "level": "Intermediate",
       "icon": "fa-solid fa-network-wired",
-      "keywords": [
-        "Network+",
-        "CCNA",
-        "MCSA"
-      ]
+      "keywords": ["Network+", "CCNA", "MCSA"]
     }
   ],
   "languages": [
@@ -205,18 +182,14 @@
     {
       "name": "A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing",
       "summary": "M.Sc. thesis. Three-rung proactive scaling for containerized edge microservices, driven by a per-service temporal convolutional network and evaluated in HierarchicalEdgeSim.",
-      "highlights": [
-        "Vertical resize, then a local replica, then a loan inside a vicinity. The cloud is not consulted during a scaling window."
-      ],
+      "highlights": ["Vertical resize, then a local replica, then a loan inside a vicinity. The cloud is not consulted during a scaling window."],
       "startDate": "2023-09-01",
       "endDate": "2026-10-01"
     },
     {
       "name": "Structure Assembling Robot",
       "summary": "Cross-disciplinary prototype: embedded microcontroller logic and a native Android app to control a mechanical assembly robot over Bluetooth.",
-      "highlights": [
-        "Contributed to the prototype behind US Patent Application US20240084610A1."
-      ],
+      "highlights": ["Contributed to the prototype behind US Patent Application US20240084610A1."],
       "startDate": "",
       "endDate": ""
     },

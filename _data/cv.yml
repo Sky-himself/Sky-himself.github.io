@@ -22,7 +22,7 @@ cv:
         score: "GPA 3.77/4"
         highlights:
           - "GPA 3.77/4"
-          - "Thesis: \"A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing,\" supervised by Dr. Seyyed Ahmad Javadi"
+          - 'Thesis: "A Proactive Container-based Auto-scaling Approach for a Hierarchical Orchestration Framework for Edge Computing," supervised by Dr. Seyyed Ahmad Javadi'
           - "Coursework graded 4/4: Distributed Systems, Cloud Computing, Applied Machine Learning, Dependable Systems Design, and Systems Analysis and Design"
       - institution: IK International University
         location: Qazvin, Iran
@@ -33,7 +33,7 @@ cv:
         score: "GPA 3.07/4"
         highlights:
           - "GPA 3.07/4"
-          - "Project: \"QuestionParty\" — full-stack web and mobile app for an online, interactive quiz game, supervised by Dr. Ali Khaleghi"
+          - 'Project: "QuestionParty" — full-stack web and mobile app for an online, interactive quiz game, supervised by Dr. Ali Khaleghi'
 
     Experience:
       - company: DiSL (Data in Science Laboratory)
@@ -42,7 +42,7 @@ cv:
         start_date: 2022-02
         end_date: 2023-03
         highlights:
-          - "Served as core developer for \"QuestionParty,\" an interactive, cross-platform application"
+          - 'Served as core developer for "QuestionParty," an interactive, cross-platform application'
           - "Architected and developed scalable backend RESTful APIs and real-time communication features using Python, Flask (SocketIO, Login), and MongoDB (PyMongo)"
           - "Built responsive user interfaces for mobile and web platforms using Flutter and Flutter Web"
           - "Managed server deployment and containerization with Docker, Nginx, uWSGI, and Linux to ensure high availability and performance"
@@ -87,7 +87,7 @@ cv:
         highlights:
           - "Contributed to the prototype's US Patent Application (US20240084610A1)"
       - name: "Systems Analysis and Design"
-        summary: "Conducted comprehensive process modeling and systems analysis for the \"South Tehran Health Center\" organization."
+        summary: 'Conducted comprehensive process modeling and systems analysis for the "South Tehran Health Center" organization.'
 
     Skills:
       - name: Distributed & Cloud
